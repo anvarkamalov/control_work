@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site</title>
+    <link rel="stylesheet" href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script data-pg-require-code="Pinegrow Interactions"
+        data-pgc-field="pgia.code">/* Pinegrow Interactions, do not remove */ (function () { try { if (!document.documentElement.hasAttribute('data-pg-ia-disabled')) { window.pgia_small_mq = typeof pgia_small_mq == 'string' ? pgia_small_mq : '(max-width:767px)'; window.pgia_large_mq = typeof pgia_large_mq == 'string' ? pgia_large_mq : '(min-width:768px)'; var style = document.createElement('style'); var pgcss = 'html:not(.pg-ia-no-preview) [data-pg-ia-hide=""] {opacity:0;visibility:hidden;}html:not(.pg-ia-no-preview) [data-pg-ia-show=""] {opacity:1;visibility:visible;display:block;}'; if (document.documentElement.hasAttribute('data-pg-id') && document.documentElement.hasAttribute('data-pg-mobile')) { pgia_small_mq = '(min-width:0)'; pgia_large_mq = '(min-width:99999px)' } pgcss += '@media ' + pgia_small_mq + '{ html:not(.pg-ia-no-preview) [data-pg-ia-hide="mobile"] {opacity:0;visibility:hidden;}html:not(.pg-ia-no-preview) [data-pg-ia-show="mobile"] {opacity:1;visibility:visible;display:block;}}'; pgcss += '@media ' + pgia_large_mq + '{html:not(.pg-ia-no-preview) [data-pg-ia-hide="desktop"] {opacity:0;visibility:hidden;}html:not(.pg-ia-no-preview) [data-pg-ia-show="desktop"] {opacity:1;visibility:visible;display:block;}}'; style.innerHTML = pgcss; document.querySelector('head').appendChild(style); } } catch (e) { console && console.log(e); } })()</script>
+    <link rel="stylesheet" href="assets/styles/style.css">
+</head>
+
+
+<body>
+
+    <div class="border border-gray-400" data-pgc-field="Compoment">
+        <header class="bg-white pg-lib-item">
+            <div class="bg-gray-100">
+                <div class="container flex flex-wrap items-center justify-center mx-auto py-1 sm:justify-between">
+                    <div class="flex-wrap inline-flex px-4 py-1 space-x-1 md:space-x-4"> <a href="#"
+                            class="group-hover:text-blue-600 hover:text-blue-600 inline-flex items-center text-gray-700 text-sm">
+                            <span class="bg-gray-700 p-2 text-white md:mr-2"> <svg viewBox="0 0 24 24"
+                                    fill="currentColor" class="h-4 w-4">
+                                    <path
+                                        d="M21 16.42v3.536a1 1 0 0 1-.93.998c-.437.03-.794.046-1.07.046-8.837 0-16-7.163-16-16 0-.276.015-.633.046-1.07A1 1 0 0 1 4.044 3H7.58a.5.5 0 0 1 .498.45c.023.23.044.413.064.552A13.901 13.901 0 0 0 9.35 8.003c.095.2.033.439-.147.567l-2.158 1.542a13.047 13.047 0 0 0 6.844 6.844l1.54-2.154a.462.462 0 0 1 .573-.149 13.901 13.901 0 0 0 4 1.205c.139.02.322.042.55.064a.5.5 0 0 1 .449.498z">
+                                    </path>
+                                </svg></span> <span class="hidden md:block">8 (800) 333-30-30</span> </a> <a href="#"
+                            class="group-hover:text-blue-600 hover:text-blue-600 inline-flex items-center text-gray-700 text-sm">
+                            <span class="bg-gray-700 p-2 text-white md:mr-2"> <svg viewBox="0 0 24 24"
+                                    fill="currentColor" class="h-4 w-4">
+                                    <path
+                                        d="M3 3h18a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm9.06 8.683L5.648 6.238 4.353 7.762l7.72 6.555 7.581-6.56-1.308-1.513-6.285 5.439z">
+                                    </path>
+                                </svg></span> <span class="hidden md:block">focus@company.com</span> </a>
+                    </div>
+                    <div class="flex-wrap inline-flex px-4 py-1 space-x-1"> <a href="#"
+                            class="hover:text-white p-2  text-white bg-gray-700 hover:bg-blue-600"
+                            aria-label="facebook"> <svg viewBox="0 0 24 24" fill="currentColor" class="h-4 w-4">
+                                <path
+                                    d="M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h1.5V2.14c-.326-.043-1.557-.14-2.857-.14C11.928 2 10 3.657 10 6.7v2.8H7v4h3V22h4v-8.5z">
+                                </path>
+                            </svg></a> <a href="#"
+                            class="hover:text-white p-2  text-white bg-gray-700 hover:bg-blue-600" aria-label="twitter">
+                            <svg viewBox="0 0 24 24" fill="currentColor" class="h-4 w-4">
+                                <path
+                                    d="M22.162 5.656a8.384 8.384 0 0 1-2.402.658A4.196 4.196 0 0 0 21.6 4c-.82.488-1.719.83-2.656 1.015a4.182 4.182 0 0 0-7.126 3.814 11.874 11.874 0 0 1-8.62-4.37 4.168 4.168 0 0 0-.566 2.103c0 1.45.738 2.731 1.86 3.481a4.168 4.168 0 0 1-1.894-.523v.052a4.185 4.185 0 0 0 3.355 4.101 4.21 4.21 0 0 1-1.89.072A4.185 4.185 0 0 0 7.97 16.65a8.394 8.394 0 0 1-6.191 1.732 11.83 11.83 0 0 0 6.41 1.88c7.693 0 11.9-6.373 11.9-11.9 0-.18-.005-.362-.013-.54a8.496 8.496 0 0 0 2.087-2.165z">
+                                </path>
+                            </svg></a> <a href="#"
+                            class="hover:text-white p-2  text-white bg-gray-700 hover:bg-blue-600"
+                            aria-label="instagram"> <svg viewBox="0 0 24 24" fill="currentColor" class="h-4 w-4">
+                                <path
+                                    d="M12 2c2.717 0 3.056.01 4.122.06 1.065.05 1.79.217 2.428.465.66.254 1.216.598 1.772 1.153a4.908 4.908 0 0 1 1.153 1.772c.247.637.415 1.363.465 2.428.047 1.066.06 1.405.06 4.122 0 2.717-.01 3.056-.06 4.122-.05 1.065-.218 1.79-.465 2.428a4.883 4.883 0 0 1-1.153 1.772 4.915 4.915 0 0 1-1.772 1.153c-.637.247-1.363.415-2.428.465-1.066.047-1.405.06-4.122.06-2.717 0-3.056-.01-4.122-.06-1.065-.05-1.79-.218-2.428-.465a4.89 4.89 0 0 1-1.772-1.153 4.904 4.904 0 0 1-1.153-1.772c-.248-.637-.415-1.363-.465-2.428C2.013 15.056 2 14.717 2 12c0-2.717.01-3.056.06-4.122.05-1.066.217-1.79.465-2.428a4.88 4.88 0 0 1 1.153-1.772A4.897 4.897 0 0 1 5.45 2.525c.638-.248 1.362-.415 2.428-.465C8.944 2.013 9.283 2 12 2zm0 5a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm6.5-.25a1.25 1.25 0 0 0-2.5 0 1.25 1.25 0 0 0 2.5 0zM12 9a3 3 0 1 1 0 6 3 3 0 0 1 0-6z">
+                                </path>
+                            </svg></a>
+                        <a href="#" class="hover:text-white p-2  text-white bg-gray-700 hover:bg-blue-600"
+                            aria-label="linkedin"> <svg viewBox="0 0 24 24" fill="currentColor" class="h-4 w-4">
+                                <path
+                                    d="M6.94 5a2 2 0 1 1-4-.002 2 2 0 0 1 4 .002zM7 8.48H3V21h4V8.48zm6.32 0H9.34V21h3.94v-6.57c0-3.66 4.77-4 4.77 0V21H22v-7.93c0-6.17-7.06-5.94-8.72-2.91l.04-1.68z">
+                                </path>
+                            </svg></a>
+                        <a href="#" class="hover:text-white p-2  text-white bg-gray-700 hover:bg-blue-600"
+                            aria-label="youtube"> <svg viewBox="0 0 24 24" fill="currentColor" class="h-4 w-4">
+                                <path
+                                    d="M21.543 6.498C22 8.28 22 12 22 12s0 3.72-.457 5.502c-.254.985-.997 1.76-1.938 2.022C17.896 20 12 20 12 20s-5.893 0-7.605-.476c-.945-.266-1.687-1.04-1.938-2.022C2 15.72 2 12 2 12s0-3.72.457-5.502c.254-.985.997-1.76 1.938-2.022C6.107 4 12 4 12 4s5.896 0 7.605.476c.945.266 1.687 1.04 1.938 2.022zM10 15.5l6-3.5-6-3.5v7z">
+                                </path>
+                            </svg></a>
+                    </div>
+                </div>
+            </div>
+            <nav class="flex items-center flex-wrap px-4 container mx-auto py-8" data-pg-class-style="navbar.boxed"
+                data-pg-class-style-inline=" py-8"> <a href="#"
+                    class="font-medium hover:text-blue-800 mr-auto text-2xl text-blue-600 uppercase">
+                    ФОКУС
+                </a>
+                <button class="hover:text-blue-600 px-3 py-2 rounded text-gray-800 lg:hidden" data-name="nav-toggler"
+                    data-pg-ia="{&quot;l&quot;:[{&quot;name&quot;:&quot;NabMenuToggler&quot;,&quot;trg&quot;:&quot;click&quot;,&quot;a&quot;:{&quot;l&quot;:[{&quot;t&quot;:&quot;^nav|[data-name=nav-menu]&quot;,&quot;l&quot;:[{&quot;t&quot;:&quot;set&quot;,&quot;p&quot;:0,&quot;d&quot;:0,&quot;l&quot;:{&quot;class.remove&quot;:&quot;hidden&quot;}}]},{&quot;t&quot;:&quot;#gt# span:nth-of-type(1)&quot;,&quot;l&quot;:[{&quot;t&quot;:&quot;tween&quot;,&quot;p&quot;:0,&quot;d&quot;:0.2,&quot;l&quot;:{&quot;rotationZ&quot;:45,&quot;yPercent&quot;:300}}]},{&quot;t&quot;:&quot;#gt# span:nth-of-type(2)&quot;,&quot;l&quot;:[{&quot;t&quot;:&quot;tween&quot;,&quot;p&quot;:0,&quot;d&quot;:0.2,&quot;l&quot;:{&quot;autoAlpha&quot;:0}}]},{&quot;t&quot;:&quot;#gt# span:nth-of-type(3)&quot;,&quot;l&quot;:[{&quot;t&quot;:&quot;tween&quot;,&quot;p&quot;:0,&quot;d&quot;:0.2,&quot;l&quot;:{&quot;rotationZ&quot;:-45,&quot;yPercent&quot;:-300}}]}]},&quot;pdef&quot;:&quot;true&quot;,&quot;trev&quot;:&quot;true&quot;}]}">
+                    <span class="block border-b-2 border-current my-1 w-6"></span> <span
+                        class="block border-b-2 border-current my-1 w-6"></span> <span
+                        class="block border-b-2 border-current my-1 w-6"></span>
+                </button>
+                <div class="lg:flex lg:space-x-4 lg:space-y-0 lg:w-auto space-y-2 w-full hidden lg:items-center"
+                    data-pg-class-style="navbar_section" data-name="nav-menu">
+                    <div class="flex flex-col lg:flex-row" data-pg-class-style="navbar_links"> <a href="#"
+                            class="font-light hover:text-blue-600 lg:px-4 uppercase py-2 px-0"
+                            data-pg-class-style="navbar_link">О нас</a> <a href="#"
+                            class="font-light hover:text-blue-600 lg:px-4 uppercase py-2 px-0"
+                            data-pg-class-style="navbar_link">Акции</a> <a href="#"
+                            class="font-light hover:text-blue-600 lg:px-4 uppercase py-2 px-0"
+                            data-pg-class-style="navbar_link">Поиск</a> <a href="#"
+                            class="font-light hover:text-blue-600 lg:px-4 uppercase py-2 px-0"
+                            data-pg-class-style="navbar_link">Управление бронированием</a> <a href="#"
+                            class="font-light hover:text-blue-600 lg:px-4 uppercase py-2 px-0"
+                            data-pg-class-style="navbar_link">Подписаться</a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+    </div>
+
+    <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto">
+            <div class="flex flex-wrap w-full mb-20 flex-col items-center text-center">
+                <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Забронируйте прямо сейчас
+                </h1>
+                <p class="lg:w-1/2 w-full leading-relaxed text-gray-500">Главная цель компании – сохранить самые яркие
+                    моменты жизни клиентов на долгие годы</p>
+            </div>
+            <div class="flex flex-wrap -m-4">
+                <div class="xl:w-1/3 md:w-1/2 p-4">
+                    <div class="border border-gray-200 p-6 rounded-lg">
+                        <div
+                            class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                                <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                            </svg>
+                        </div>
+                        <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Шаг 1</h2>
+                        <p class="leading-relaxed text-base">Выбрать точную дату и время предполагаемой съемки</p>
+                    </div>
+                </div>
+                <div class="xl:w-1/3 md:w-1/2 p-4">
+                    <div class="border border-gray-200 p-6 rounded-lg">
+                        <div
+                            class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                                <circle cx="6" cy="6" r="3"></circle>
+                                <circle cx="6" cy="18" r="3"></circle>
+                                <path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"></path>
+                            </svg>
+                        </div>
+                        <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Шаг 2</h2>
+                        <p class="leading-relaxed text-base">Выбрать точное или предположительное количество участников
+                        </p>
+                    </div>
+                </div>
+                <div class="xl:w-1/3 md:w-1/2 p-4">
+                    <div class="border border-gray-200 p-6 rounded-lg">
+                        <div
+                            class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                                <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+                                <circle cx="12" cy="7" r="4"></circle>
+                            </svg>
+                        </div>
+                        <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Шаг 3</h2>
+                        <p class="leading-relaxed text-base">Выбрать подходящую локацию для съемки, соотвествующую
+                            условиям выше</p>
+                    </div>
+                </div>
+                <div class="xl:w-1/3 md:w-1/2 p-4">
+                    <div class="border border-gray-200 p-6 rounded-lg">
+                        <div
+                            class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                                <path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1zM4 22v-7"></path>
+                            </svg>
+                        </div>
+                        <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Шаг 4</h2>
+                        <p class="leading-relaxed text-base">Зарезервировать конкретные зоны на выбранной вами локации
+                        </p>
+                    </div>
+                </div>
+                <div class="xl:w-1/3 md:w-1/2 p-4">
+                    <div class="border border-gray-200 p-6 rounded-lg">
+                        <div
+                            class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                                <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
+                            </svg>
+                        </div>
+                        <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Шаг 5</h2>
+                        <p class="leading-relaxed text-base">Определить полный перечень дополнительных услуг, нужных для
+                            съемки</p>
+                    </div>
+                </div>
+                <div class="xl:w-1/3 md:w-1/2 p-4">
+                    <div class="border border-gray-200 p-6 rounded-lg">
+                        <div
+                            class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                            </svg>
+                        </div>
+                        <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Шаг 6</h2>
+                        <p class="leading-relaxed text-base">Оформить заказ на нашем сайте и ждать обратной связи</p>
+                    </div>
+                </div>
+            </div><button
+                class="flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Подробнее</button>
+        </div>
+    </section>
+
+    <div class="pg-lib-item pg-lib-svg-wrapper">
+        <svg viewBox="0 0 1440 185" preserveAspectRatio="none" fill="currentColor" version="1.1"
+            xmlns="http://www.w3.org/2000/svg" class="text-blue-600" width="100%" height="160">
+            <path d="M0 185 H 1440 V 60 C 1114 355 700 35 516 35 C 333 35 246 199 0 60 V 185 Z"></path>
+        </svg>
+    </div>
+    <div class="pg-lib-item pg-lib-svg-wrapper">
+        <svg viewBox="0 0 1440 185" preserveAspectRatio="none" fill="currentColor" version="1.1"
+            xmlns="http://www.w3.org/2000/svg" width="100%" height="160" class="text-blue-600">
+            <path d="M 0 0 H 1440 V 60 C 1114 355 700 35 516 35 C 333 35 246 199 0 60 V 0 Z"></path>
+        </svg>
+    </div>
+
+    <section class="text-gray-600 body-font">
+        <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+            <div
+                class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+                <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Предоставляем услуги для
+                    организации фото и видеосъемок</h1>
+                <p class="mb-8 leading-relaxed">
+                    Клиенты компании «Фокус» имеют возможность забронировать одну из предоставленных локаций для
+                    организации фото и видеосъемок. Помимо аренды, компания предоставляет широкий спектр дополнительных
+                    услуг, таких как: услуги фотографов, предоставление реквизита для съемок, такси и т.д.</p>
+                <div class="flex justify-center"><button
+                        class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Узнать
+                        больше</button>
+                </div>
+            </div>
+            <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6"><img class="object-cover object-center rounded" alt="hero"
+                    src="assets/media/people/9.jpg"></div>
+        </div>
+    </section>
+
+    <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto">
+            <div class="flex flex-col text-center w-full mb-20">
+                <h1 class="text-2xl font-medium title-font mb-4 text-gray-900 tracking-widest">ДЕВИЗ КОМПАНИИ «ФОКУС»:
+                    СДЕЛАЙ ЖИЗНЬ ЯРЧЕ!</h1>
+                <p class="lg:w-2/3 mx-auto leading-relaxed text-base">У нас Вы сможете подобрать подходящий зал для
+                    Вашей фотосессии, приобрести подарочные сертификаты и даже сделать съёмку с нашим фотографом!
+                    В наших студиях современное осветительное оборудование с множеством светоформирующих насадок,
+                    оригинальные декорации, разнообразный реквизит и большой опыт наших сотрудников.
+                </p>
+            </div>
+            <div class="pg-lib-item py-4 text-center">
+                <h2 class="font-semibold text-2xl uppercase">Отзывы</h2>
+                <div class="border-b border-gray-500 my-2"> <span
+                        class="-mb-px bg-gray-900 block h-1 mx-auto w-16"></span>
+                </div>
+            </div>
+            <div class="flex flex-wrap -m-4">
+                <div class="p-4 lg:w-1/2">
+                    <div
+                        class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+                        <img alt="team"
+                            class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
+                            src="assets/media/people/1.jpg">
+                        <div class="flex-grow sm:pl-8">
+                            <h2 class="title-font font-medium text-lg text-gray-900">Алина</h2>
+                            <h3 class="text-gray-500 mb-3">День рождения</h3>
+                            <p class="mb-4">Спасибо большое! Локация "Черная жемчужина" просто супер! Все в бурных
+                                эмоциях, фото получились просто огонь!
+                            </p><span class="inline-flex"><a class="text-gray-500"><svg fill="none"
+                                        stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                                    </svg></a><a class="ml-2 text-gray-500"><svg fill="none" stroke="currentColor"
+                                        stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5"
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                        </path>
+                                    </svg></a><a class="ml-2 text-gray-500"><svg fill="none" stroke="currentColor"
+                                        stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5"
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                                        </path>
+                                    </svg></a></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-4 lg:w-1/2">
+                    <div
+                        class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+                        <img alt="team"
+                            class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
+                            src="assets/media/people/2.jpg">
+                        <div class="flex-grow sm:pl-8">
+                            <h2 class="title-font font-medium text-lg text-gray-900">Марина</h2>
+                            <h3 class="text-gray-500 mb-3">Свадьба</h3>
+                            <p class="mb-4">Долго думала как отпразновать годовщину свадьбы. Увидела фото ваших локаций
+                                и влюбилась!
+                                Отлично провели время с мужем, сделали кучу фото для инстаграмма и даже распечатали
+                                несколько на память.
+                            </p><span class="inline-flex"><a class="text-gray-500"><svg fill="none"
+                                        stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                                    </svg></a><a class="ml-2 text-gray-500"><svg fill="none" stroke="currentColor"
+                                        stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5"
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                        </path>
+                                    </svg></a><a class="ml-2 text-gray-500"><svg fill="none" stroke="currentColor"
+                                        stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5"
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                                        </path>
+                                    </svg></a></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-4 lg:w-1/2">
+                    <div
+                        class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+                        <img alt="team"
+                            class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
+                            src="assets/media/people/3.jpg">
+                        <div class="flex-grow sm:pl-8">
+                            <h2 class="title-font font-medium text-lg text-gray-900">Алена и Ко</h2>
+                            <h3 class="text-gray-500 mb-3">Груповая фотосесссия</h3>
+                            <p class="mb-4">Всё очень понравилось.
+                                Воспользовались с девочками услугами вашего фотографа Ильи, теперь фотаемся только у
+                                него!
+                            </p><span class="inline-flex"><a class="text-gray-500"><svg fill="none"
+                                        stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                                    </svg></a><a class="ml-2 text-gray-500"><svg fill="none" stroke="currentColor"
+                                        stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5"
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                        </path>
+                                    </svg></a><a class="ml-2 text-gray-500"><svg fill="none" stroke="currentColor"
+                                        stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5"
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                                        </path>
+                                    </svg></a></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-4 lg:w-1/2">
+                    <div
+                        class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+                        <img alt="team"
+                            class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
+                            src="assets/media/people/pexels-dziana-hasanbekava-5480691.jpg">
+                        <div class="flex-grow sm:pl-8">
+                            <h2 class="title-font font-medium text-lg text-gray-900">Наталия</h2>
+                            <h3 class="text-gray-500 mb-3">Частная фотосессия</h3>
+                            <p class="mb-4">Уже не первый раз устраиваю себе праздник, организуя фотосессию в ваших
+                                локациях. Не дорого, а эмоций на весь день.
+                            </p><span class="inline-flex"><a class="text-gray-500"><svg fill="none"
+                                        stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                                    </svg></a><a class="ml-2 text-gray-500"><svg fill="none" stroke="currentColor"
+                                        stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5"
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                        </path>
+                                    </svg></a><a class="ml-2 text-gray-500"><svg fill="none" stroke="currentColor"
+                                        stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5"
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                                        </path>
+                                    </svg></a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="pg-lib-item pg-lib-svg-wrapper">
+        <svg viewBox="0 0 1440 185" preserveAspectRatio="none" fill="currentColor" version="1.1"
+            xmlns="http://www.w3.org/2000/svg" class="text-blue-600" width="100%" height="160">
+            <path d="M0 185 H 1440 V 60 C 1114 355 700 35 516 35 C 333 35 246 199 0 60 V 185 Z"></path>
+        </svg>
+    </div>
+    <div class="pg-lib-item pg-lib-svg-wrapper">
+        <svg viewBox="0 0 1440 185" preserveAspectRatio="none" fill="currentColor" version="1.1"
+            xmlns="http://www.w3.org/2000/svg" width="100%" height="160" class="text-blue-600">
+            <path d="M 0 0 H 1440 V 60 C 1114 355 700 35 516 35 C 333 35 246 199 0 60 V 0 Z"></path>
+        </svg>
+    </div>
+
+    <section class="text-gray-600 body-font relative">
+        <div class="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
+            <div
+                class="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
+                <iframe width="100%" height="100%" class="absolute inset-0" frameborder="0" title="map" marginheight="0"
+                    marginwidth="0" scrolling="no"
+                    src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=%C4%B0zmir+(My%20Business%20Name)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed"
+                    style="filter: grayscale(1) contrast(1.2) opacity(0.4);"></iframe>
+                <div class="bg-white relative flex flex-wrap py-6 rounded shadow-md">
+                    <div class="lg:w-1/2 px-6">
+                        <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs">АДРЕС</h2>
+                        <p class="mt-1">Вы можете найти выбранные вами локации на данной карте</p>
+                    </div>
+                    <div class="lg:w-1/2 px-6 mt-4 lg:mt-0">
+                        <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs">EMAIL</h2><a
+                            class="text-indigo-500 leading-relaxed">focus@company.com</a>
+                        <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">PHONE</h2>
+                        <p class="leading-relaxed">8 (800) 333-30-30</p>
+                    </div>
+                </div>
+            </div>
+            <div class="lg:w-1/3 md:w-1/2 bg-white flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
+                <h2 class="text-gray-900 text-lg mb-1 font-medium title-font">ПОИСК</h2>
+                <p class="leading-relaxed mb-5 text-gray-600">Предоставляем услуги для организации фото и видеосъемок
+                </p>
+                <div class="relative mb-4"><label for="name" class="leading-7 text-sm text-gray-600">Выбрать
+                        регион</label><input type="text" id="name" name="name"
+                        class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                </div>
+                <div class="relative mb-4"><label for="email" class="leading-7 text-sm text-gray-600">Выбрать дату и
+                        время съемки</label><input type="email" id="email" name="email"
+                        class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                </div>
+                <div class="relative mb-4"><label for="message" class="leading-7 text-sm text-gray-600">Указать
+                        количество участников и доплнительные опции</label><textarea id="message" name="message"
+                        class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+                </div><button
+                    class="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Искать</button>
+                <p class="text-xs text-gray-500 mt-3">Помимо аренды, компания предоставляет широкий спектр
+                    дополнительных услуг, таких как: услуги фотографов, предоставление реквизита для съемок, такси и
+                    т.д.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto">
+            <div class="flex flex-col">
+                <div class="h-1 bg-gray-200 rounded overflow-hidden">
+                    <div class="w-24 h-full bg-indigo-500"></div>
+                </div>
+                <div class="flex flex-wrap sm:flex-row flex-col py-6 mb-12">
+                    <h1 class="sm:w-2/5 text-gray-900 font-medium title-font text-2xl mb-2 sm:mb-0">АКЦИИ</h1>
+                    <p class="sm:w-3/5 leading-relaxed text-base sm:pl-10 pl-0">У нас Вы сможете подобрать подходящий
+                        зал для Вашей фотосессии, приобрести подарочные сертификаты и даже сделать съёмку с нашим
+                        фотографом! </p>
+                </div>
+            </div>
+            <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
+                <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
+                    <div class="rounded-lg h-64 overflow-hidden"><img alt="content"
+                            class="object-cover object-center h-full w-full"
+                            src="assets/media/promotions/promotion1.jpg">
+                    </div>
+                    <h2 class="text-xl font-medium title-font text-gray-900 mt-5">Скидка до 60%. За заказ зоны (до 5
+                        человек) в локации «Черная жемчужина»</h2>
+                    <p class="text-base leading-relaxed mt-2">Устали от городского шума, хотите провести фотосессию за
+                        городом в живописной локации? Заказывайте место в локации «Черная жемчужина».
+                        Здесь вас ждет настоящая пиратская шхуна с настоящими пиратами! Фото будут просто огонь!</p><a
+                        class="text-indigo-500 inline-flex items-center mt-3">Узнать больше<svg fill="none"
+                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                            <path d="M5 12h14M12 5l7 7-7 7"></path>
+                        </svg></a>
+                </div>
+                <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
+                    <div class="rounded-lg h-64 overflow-hidden"><img alt="content"
+                            class="object-cover object-center h-full w-full"
+                            src="assets/media/promotions/promotion2.jpg">
+                    </div>
+                    <h2 class="text-xl font-medium title-font text-gray-900 mt-5">Скидка до 51% при заказе услуг
+                        фотографа и использовании реквизита локации</h2>
+                    <p class="text-base leading-relaxed mt-2">Локация «Поляна сказок» расположена в живописной
+                        загородной местности на берегу чистого озера. Есть места для организации фотосъемок как на
+                        открытом воздухе, так и под навесом с профессиональным оборудованием и реквизитом</p><a
+                        class="text-indigo-500 inline-flex items-center mt-3">Узнать больше<svg fill="none"
+                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                            <path d="M5 12h14M12 5l7 7-7 7"></path>
+                        </svg></a>
+                </div>
+                <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
+                    <div class="rounded-lg h-64 overflow-hidden"><img alt="content"
+                            class="object-cover object-center h-full w-full"
+                            src="assets/media/promotions/promotion3.jpg">
+                    </div>
+                    <h2 class="text-xl font-medium title-font text-gray-900 mt-5">Скидка до 25%. Закажи праздник "Под
+                        ключ"</h2>
+                    <p class="text-base leading-relaxed mt-2">При выборе локации для 5 человек и больше, а также при
+                        заказе всех дополнительных услуг можно очень неплохо сэкономить!</p><a
+                        class="text-indigo-500 inline-flex items-center mt-3">Узнать больше<svg fill="none"
+                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                            <path d="M5 12h14M12 5l7 7-7 7"></path>
+                        </svg></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-gray-50 pg-lib-item py-24 text-gray-500">
+        <div class="container mx-auto px-4">
+            <div class="bg-white p-10 shadow-xl sm:p-16"> 
+                <h2 class="font-medium mb-6 text-4xl text-gray-800">Подписаться на закрытые акции</h2> 
+                <form> 
+                    <div class="mb-6"> 
+                        <input class="appearance-none border-2 border-blue-600 focus:shadow-lg outline-none px-5 py-3 w-full" placeholder="Введите имя..."> 
+                    </div>                                         
+                    <div class="mb-6"> 
+                        <input class="appearance-none border-2 border-blue-600 focus:shadow-lg outline-none px-5 py-3 w-full" placeholder="Введите почту..." type="email"> 
+                    </div>                                         
+                    <div class="mb-6"> 
+                        <textarea rows="6" class="appearance-none border-2 border-blue-600 focus:shadow-lg outline-none px-5 py-3 w-full" placeholder="Введите ваше сообщение..."></textarea> 
+                    </div>                                         
+                    <button type="submit" class="bg-blue-600 font-medium hover:bg-blue-700 inline-block p-3 text-center text-white uppercase w-full">Подписаться</button>                                         
+                </form>                                     
+            </div>                                 
+        </div>
+    </section>
+
+    <div class="border border-gray-400" data-pgc-field="Compoment">
+        <footer class="bg-gray-900 font-light pg-lib-item pt-12 text-gray-300"> 
+            <div class="container mx-auto px-4 relative" data-pg-class-style="container" data-pg-class-style-inline=""> 
+                <div class="flex flex-wrap -mx-4" data-pg-class-style="column_parent"> 
+                    <div class="w-full p-4  xl:mr-auto xl:w-4/12"> <a href="#" class="font-medium hover:text-blue-800 inline-block mb-6 mr-auto text-3xl text-white uppercase">                 Фокус </a> 
+                        <p class="mb-4 text-sm">Клиенты компании «Фокус» имеют возможность забронировать одну из предоставленных локаций для организации фото и видеосъемок. Помимо аренды, компания предоставляет широкий спектр дополнительных услуг, таких как: услуги фотографов, предоставление реквизита для съемок, такси и т.д.</p> 
+                        <div class="mb-6"> <a href="#" class="hover:text-blue-600">8 (800) 333-30-30</a> <br> <a href="#" class="hover:text-blue-600">focus@company.com</a> 
+                        </div>                                         
+                        <div class="flex-wrap inline-flex space-x-3"> <a href="#" class="hover:text-blue-600" aria-label="facebook"> <svg viewBox="0 0 24 24" fill="currentColor" class="h-5 w-5"> 
+                                    <path d="M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h1.5V2.14c-.326-.043-1.557-.14-2.857-.14C11.928 2 10 3.657 10 6.7v2.8H7v4h3V22h4v-8.5z"></path> 
+                                </svg></a> <a href="#" class="hover:text-blue-600" aria-label="twitter"> <svg viewBox="0 0 24 24" fill="currentColor" class="h-5 w-5"> 
+                                    <path d="M22.162 5.656a8.384 8.384 0 0 1-2.402.658A4.196 4.196 0 0 0 21.6 4c-.82.488-1.719.83-2.656 1.015a4.182 4.182 0 0 0-7.126 3.814 11.874 11.874 0 0 1-8.62-4.37 4.168 4.168 0 0 0-.566 2.103c0 1.45.738 2.731 1.86 3.481a4.168 4.168 0 0 1-1.894-.523v.052a4.185 4.185 0 0 0 3.355 4.101 4.21 4.21 0 0 1-1.89.072A4.185 4.185 0 0 0 7.97 16.65a8.394 8.394 0 0 1-6.191 1.732 11.83 11.83 0 0 0 6.41 1.88c7.693 0 11.9-6.373 11.9-11.9 0-.18-.005-.362-.013-.54a8.496 8.496 0 0 0 2.087-2.165z"></path> 
+                                </svg></a> <a href="#" class="hover:text-blue-600" aria-label="instagram"> <svg viewBox="0 0 24 24" fill="currentColor" class="h-5 w-5"> 
+                                    <path d="M12 2c2.717 0 3.056.01 4.122.06 1.065.05 1.79.217 2.428.465.66.254 1.216.598 1.772 1.153a4.908 4.908 0 0 1 1.153 1.772c.247.637.415 1.363.465 2.428.047 1.066.06 1.405.06 4.122 0 2.717-.01 3.056-.06 4.122-.05 1.065-.218 1.79-.465 2.428a4.883 4.883 0 0 1-1.153 1.772 4.915 4.915 0 0 1-1.772 1.153c-.637.247-1.363.415-2.428.465-1.066.047-1.405.06-4.122.06-2.717 0-3.056-.01-4.122-.06-1.065-.05-1.79-.218-2.428-.465a4.89 4.89 0 0 1-1.772-1.153 4.904 4.904 0 0 1-1.153-1.772c-.248-.637-.415-1.363-.465-2.428C2.013 15.056 2 14.717 2 12c0-2.717.01-3.056.06-4.122.05-1.066.217-1.79.465-2.428a4.88 4.88 0 0 1 1.153-1.772A4.897 4.897 0 0 1 5.45 2.525c.638-.248 1.362-.415 2.428-.465C8.944 2.013 9.283 2 12 2zm0 5a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm6.5-.25a1.25 1.25 0 0 0-2.5 0 1.25 1.25 0 0 0 2.5 0zM12 9a3 3 0 1 1 0 6 3 3 0 0 1 0-6z"></path> 
+                                </svg></a>
+                            <a href="#" class="hover:text-blue-600" aria-label="linkedin"> <svg viewBox="0 0 24 24" fill="currentColor" class="h-5 w-5"> 
+                                    <path d="M6.94 5a2 2 0 1 1-4-.002 2 2 0 0 1 4 .002zM7 8.48H3V21h4V8.48zm6.32 0H9.34V21h3.94v-6.57c0-3.66 4.77-4 4.77 0V21H22v-7.93c0-6.17-7.06-5.94-8.72-2.91l.04-1.68z"></path> 
+                                </svg></a>
+                            <a href="#" class="hover:text-blue-600" aria-label="youtube"> <svg viewBox="0 0 24 24" fill="currentColor" class="h-5 w-5"> 
+                                    <path d="M21.543 6.498C22 8.28 22 12 22 12s0 3.72-.457 5.502c-.254.985-.997 1.76-1.938 2.022C17.896 20 12 20 12 20s-5.893 0-7.605-.476c-.945-.266-1.687-1.04-1.938-2.022C2 15.72 2 12 2 12s0-3.72.457-5.502c.254-.985.997-1.76 1.938-2.022C6.107 4 12 4 12 4s5.896 0 7.605.476c.945.266 1.687 1.04 1.938 2.022zM10 15.5l6-3.5-6-3.5v7z"></path> 
+                                </svg></a> 
+                        </div>                                         
+                    </div>                                     
+                                   
+                    <div class="w-full p-4  xl:w-2/12 sm:w-4/12"> 
+                        <h2 class="font-bold mb-8 text-lg uppercase">                             Страницы </h2> 
+                        <ul> 
+                            <li class="mb-4"> <a href="#" class="hover:text-blue-600">О нас</a> 
+                            </li>                                             
+                            <li class="mb-4"> <a href="#" class="hover:text-blue-600">Акции</a> 
+                            </li>                                             
+                            <li class="mb-4"> <a href="#" class="hover:text-blue-600">Поиск</a> 
+                            </li>                                             
+                            <li class="mb-4"> <a href="#" class="hover:text-blue-600">Управление бронированием</a> 
+                            </li>                                             
+                            <li class="mb-4"> <a href="#" class="hover:text-blue-600">Подписаться</a> 
+                            </li>                                             
+                        </ul>                                         
+                    </div>                                     
+                    <div class="w-full p-4  xl:w-2/12 sm:w-4/12"> 
+                        <h2 class="font-bold mb-8 text-lg uppercase">                             Полезные ссылки </h2> 
+                        <ul> 
+                            <li class="mb-4"> <a href="#" class="hover:text-blue-600">Услуги</a> 
+                            </li>                                             
+                            <li class="mb-4"> <a href="#" class="hover:text-blue-600">Карта локаций</a> 
+                            </li>                                             
+                            <li class="mb-4"> <a href="#" class="hover:text-blue-600">Прайс</a> 
+                            </li>                                             
+                            <li class="mb-4"> <a href="#" class="hover:text-blue-600">Все отзывы</a> 
+                            </li>                                             
+                            <li class="mb-4"> <a href="#" class="hover:text-blue-600">Наша команда</a> 
+                            </li>                                             
+                        </ul>                                         
+                    </div>                                     
+                </div>                                 
+                <div class="py-4 text-center"> 
+                    <hr class="mb-4 opacity-25"> 
+                    <p class="text-sm">Copyright © 2023 "ФОКУС" by Анвар Камалов</p> 
+                </div>                                 
+            </div>                             
+        </footer>
+    </div>
+</body>
+
+
+<script src="https://library.pinegrow.com/tailwind/tw2/pgia/lib/pgia.js"></script>
+<script src="assets/js/script.js"></script>
+
+</html>
